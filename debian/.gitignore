@@ -1,0 +1,15 @@
+/*.substvars
+/files
+/tmp
+/source
+/.debhelper
+/*.debhelper.log
+/debhelper-build-stamp
+/libmali-rk-dev/
+/libmali-rk-midgard-t76x-r14p0-r0p0/
+/libmali-rk-midgard-t76x-r14p0-r0p0-wayland/
+/libmali-rk-midgard-t76x-r14p0-r1p0/
+/libmali-rk-midgard-t86x-r14p0/
+/libmali-rk-utgard-400-r7p0/
+/libmali-rk-utgard-450-r7p0-wayland/
+/libmali-rk-utgard-450-r7p0/
