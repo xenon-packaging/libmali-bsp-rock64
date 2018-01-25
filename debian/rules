@@ -11,4 +11,3 @@ override_dh_install:
 		sed -e"s,\$${DEB_HOST_MULTIARCH},$(DEB_HOST_MULTIARCH),g" \
 			$${file} > $${file%%.in}; \
 	done
-	install lib/aarch64-linux-gnu/libmali-utgard-450-r7p0.so debian/rock64-mali-x11/usr/lib/aarch64-linux-gnu/mali-egl/libMali.so
