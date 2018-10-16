@@ -5,7 +5,7 @@
 override_dh_install:
 	dh_install
 	echo "/usr/lib/$(DEB_HOST_MULTIARCH)/mali-egl" \
-        > $(CURDIR)/debian/rock64-mali-x11/usr/lib/$(DEB_HOST_MULTIARCH)/mali-egl/ld.so.conf
+        > $(CURDIR)/debian/libmali-bsp-rock64/usr/lib/$(DEB_HOST_MULTIARCH)/mali-egl/ld.so.conf
 	for file in debian/*.in; \
 	do \
 		sed -e"s,\$${DEB_HOST_MULTIARCH},$(DEB_HOST_MULTIARCH),g" \
