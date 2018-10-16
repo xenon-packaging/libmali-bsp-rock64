@@ -2,7 +2,7 @@
 
 set -e
 
-THIS_PACKAGE=rock64-mali-x11
+THIS_PACKAGE=libmali-bsp-rock64
 THIS_SCRIPT=postinst
 
 case "$1" in

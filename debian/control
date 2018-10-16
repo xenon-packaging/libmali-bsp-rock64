@@ -1,4 +1,4 @@
-Source: rock64-mali-x11
+Source: libmali-bsp-rock64
 Section: misc
 Priority: optional
 Maintainer: Leszek Lesner <leszek.lesner@web.de>
@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.5
 Homepage: https://github.com/mdrjr/c1_mali_libs
 
-Package: rock64-mali-x11
+Package: libmali-bsp-rock64
 Architecture: arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: openGL libs from Mali
